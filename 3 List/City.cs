@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _2_ImportDanychZPliku
+namespace _3_List
 {
     public class City
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 
-namespace ConsoleApp1
+namespace _1_Tablica
 {
     class Program
     {
@@ -12,7 +12,7 @@ namespace ConsoleApp1
                 "January",
                 "February",
                 "March",
-                "April",
+                "April", 
                 "May",
                 "June",
                 "July",

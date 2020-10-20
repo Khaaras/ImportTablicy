@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ImportDanychZPliku
+namespace _2_ImportDanychZPliku
 {
     class Program
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace _2_ImportDanychZPliku
+namespace _3_List
 {
     public class CsvReader
     {
@@ -14,19 +14,20 @@ namespace _2_ImportDanychZPliku
             _csvFilePath = csvFilePath;
         }
 
-        public City[] ReadFirstNCitys(int nCitys)
+        public List<City> ReadAllCities()
         {
-            City[] citys = new City[nCitys];
+            List<City> citys = new List<City>();
 
             using (StreamReader streamReader = new StreamReader(_csvFilePath))
             {
                 //read header here
                 streamReader.ReadLine();
 
-                for (int i = 0; i < nCitys; i++)
+                string csvLine;
+                while((csvLine = streamReader.ReadLine()) != null)
                 {
-                    string csvLine = streamReader.ReadLine();
-                    citys[i] = ReadCityFromCsvLine(csvLine);
+                    
+                    citys.Add(ReadCityFromCsvLine(csvLine));
                 }
 
             }
