@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2 ImportDanychZPliku", "Imp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 List", "3 List\3 List.csproj", "{74DDA1DB-B844-4D12-8DEE-3BB0D2AAF0C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 Dictionary", "_4_Dictionary\4 Dictionary.csproj", "{621D5585-4804-43B2-8C37-6136288760F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{74DDA1DB-B844-4D12-8DEE-3BB0D2AAF0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74DDA1DB-B844-4D12-8DEE-3BB0D2AAF0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74DDA1DB-B844-4D12-8DEE-3BB0D2AAF0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621D5585-4804-43B2-8C37-6136288760F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621D5585-4804-43B2-8C37-6136288760F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621D5585-4804-43B2-8C37-6136288760F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621D5585-4804-43B2-8C37-6136288760F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
